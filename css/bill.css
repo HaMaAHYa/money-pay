@@ -1,0 +1,14 @@
+@import url("style.css");
+@import url("login.css");
+
+h1{
+    color: green;
+}
+
+button{
+    background-color: green;
+}
+
+button:hover{
+    background-color: rgb(17, 164, 17);
+}

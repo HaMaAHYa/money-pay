@@ -1,0 +1,22 @@
+@import url("style.css");
+
+.navbar{
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--grey-color);    
+    opacity: 0.9;
+}
+
+.navbar a{  
+    float: right;
+    padding: 1.4rem 1.6rem;
+    display: block;
+    font-size: 1.7rem;
+    color: var(--black-color);
+    transition: 0.2s;
+}
+
+.navbar a:hover{
+    background-color: var(--hover-color);
+    color: var(--grey-color);
+}

@@ -1,0 +1,41 @@
+@import url("style.css");
+
+.main-content{
+    padding: 20rem 0;
+    color: var(--grey-color);
+    background-color: var(--black-color);
+}
+
+.main-content div{
+    font-size: 2.5rem;
+}
+
+.pay-platform-content{
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--grey-color);   
+}
+
+.pay-platform-content a{
+    padding: 1.4rem 1.6rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: var(--black-color);
+    transition: 0.2s;
+}
+
+.pay-platform-content a:hover{
+    background-color: var(--hover-color);
+    color: var(--grey-color);
+}
+
+.pay-content{
+    padding: 20rem 0;
+    background-color: var(--grey-color);
+    color: var(--black-color);
+}
+
+.pay-content a{
+    font-size: 2.5rem;
+    color: var(--black-color);
+}

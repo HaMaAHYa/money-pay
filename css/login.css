@@ -1,0 +1,79 @@
+@import url("style.css");
+
+body{
+    height: 100vh;
+    background: linear-gradient(100deg, var(--black-color) 0%,var(--black-color) 50%,var(--grey-color) 40%,var(--grey-color) 100%);
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5vh;
+    margin: 2vh;
+}
+
+.card{
+    display: flex;
+    height: 70vh;
+    width: 30vw;
+    box-shadow: 0 0 .3vw .3vh rgb(98, 98, 98);
+    background-color: var(--grey-color);
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vh;
+    flex-direction: column;
+}
+
+input{
+    max-height: 3vh;
+    width: 20vw;
+    margin: 1vh;
+    border: none;
+    background-color: var(--grey-color);
+    border-bottom: solid .1vh;
+    float: left;
+}
+
+input:active{
+    border: 0;
+}
+
+::placeholder{
+    float: left;
+    margin-left: 2vh;
+    font-size: 2vh;
+}
+
+button{
+    margin: 5vh;
+    width: 20vw;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 1vh;
+    border: none;
+    background-color: var(--black-color);
+    color: var(--grey-color);
+
+}
+
+button:hover{
+    --black-color: #3c2f60;
+    background-color: var(--black-color);
+}
+
+button:active{
+    font-size: 1.9vh;
+}
+
+#register, #noPassword{
+    margin-bottom: 5vh;
+    font-size: 2vh;
+
+}
+
+#noPassword{
+    color: gray;
+    font-size: 1.7vh;
+}
